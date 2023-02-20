@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Nama  : Edi "<<endl;
+    cout<<"Kelas : 2Ti5"<<endl;
+    cout<<"NIM   : 22024169"<<endl;
+
+    int a,b,c;
+
+
+
+
+    char Display [6]="Hall0"; /* disini char adalah 6-1 jadi karakter yang kita masukan jangan lebih dari 5 
+    contoh saya masukan adalah kata "hallo" hallo merupakan 5 karakter jadi kita tidak bisa masukan 6 karakter kalau lebih akan error*/
+    cout<<Display<<endl;
+
+    return 0;
+}
