@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"Nama  : Edi "<<endl;
+    cout<<"Kelas : 2Ti5"<<endl;
+    cout<<"NIM   : 22024169"<<endl;
+
+    int a,b,c;
+
+
+
+    cout<<"Masukan Nilai : ";cin>>a;
+    cout<<"Masukan Nilai :  ";cin>>b;
+    c=a+b;
+    cout<<c<<endl;
+
+    return 0;
+}
