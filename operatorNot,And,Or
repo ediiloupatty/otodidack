@@ -1,0 +1,46 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+    //Operator : not, and ,or
+    //1=true 0=false
+
+    int a = 3;
+    int b = 2;
+    bool hasil;
+
+    cout<<"Untuk not"<<endl;
+    hasil = (a == 3);
+
+    cout<<"True or False : "<<hasil<<endl;
+
+    cout<<"Untuk and"<<endl;
+    //and : kedua nilai benar untuk menghasilkan true
+    hasil = (a==3) and (b==2); // true and true =  true
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==5) and (b==2); // false and true = false
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==3) && (b==1); //true and false = false
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==6) && (b==3); //false and false = fasle
+    cout<<"True or False : "<<hasil<<endl;
+
+
+    cout<<"Untuk or"<<endl;
+    //salah satu benar untuk menghasilkan true
+    hasil = (a==3) or (b==2); // true and true =  true
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==5) or (b==2); // false and true = true
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==3) || (b==1); //true and false = true
+    cout<<"True or False : "<<hasil<<endl;
+    hasil = (a==6) || (b==3); //false and false = fasle
+    cout<<"True or False : "<<hasil<<endl;
+
+
+    cin.get();
+    return 0;
+}
